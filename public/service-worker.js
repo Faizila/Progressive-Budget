@@ -14,11 +14,13 @@ const RUNTIME_CACHE = "runtime-cache";
 // The install handler
 self.addEventListener("install", event => {
   event.waitUntil(
-    caches
-      .open(STATIC_CACHE)
-      .then(cache => cache.addAll(FILES_TO_CACHE))
-      .then(() => self.skipWaiting())
+    caches.open(STATIC_CACHE).then(cache => {
+      console.log("Your files were pre-cached successfully!");
+      return cache.addAll(FILES_TO_CACHE);
+    })
   );
+
+  self.skipWaiting();
 });
 
 // The activate handler cleans up old caches
