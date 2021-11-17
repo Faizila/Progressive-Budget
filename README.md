@@ -69,6 +69,8 @@ npm start
 # Screenshots
 
 ![Capture](https://user-images.githubusercontent.com/78191579/142087707-2a90a431-2f8b-4ddb-ba9a-fbcaa05b6eeb.JPG)
+![1](https://user-images.githubusercontent.com/78191579/142096165-359c4f21-5d52-4be0-b463-8dfa22b98136.JPG)
+![2](https://user-images.githubusercontent.com/78191579/142096170-df44cba8-5ecb-4121-a324-01082931df8e.JPG)
 
 # Questions
 
