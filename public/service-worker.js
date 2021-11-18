@@ -12,6 +12,7 @@ const CACHE_FILES = [
 
 const PRECACHE = "precache-budget";
 const DATACACHE = "datacache-budget";
+
 //installing service worker
 self.addEventListener("install", (event) => {
   event.waitUntil(
